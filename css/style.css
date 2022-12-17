@@ -86,9 +86,43 @@ nav a:last-child {
   justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
+}
 
+.hero-banner div {
+  flex: 0 0 90%;
+}
 
+.hero-banner h2 {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  display: inline;
+}
 
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: stretch;
+  justify-content: space-between; 
+}
 
+.page-section > h2 {
+flex: 0 0 20%;
+text-align: right;
+padding-right: 15px;
+border-right: 4px solid var(--primary); /*this adds the line nect to H2*/
+font-size: 4vw;
+line-height: 1.1;
 }
