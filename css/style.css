@@ -19,6 +19,7 @@ body {
   line-height: 1.5;
 }
 
+/*come back and change this*/
 h1,
 h2,
 h3,
@@ -59,4 +60,35 @@ nav a {
   background-position: bottom; /*moves the background images ie lines to the bottom*/
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  color: var(--primary);
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+.hero-banner {
+  background-color: rgb(162, 213, 255);
+  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);/*this adds a style to the background image if the image didnt go blue correctly*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light; /*this gives it the blue style from linear gradient*/
+  min-height: 30vh; /*this changes the height of the image*/
+  color: var(--light);
+  padding: 2% 6%; /*this changes the padding around the image so the workding will move*/
+  /*this changes where the wrighting  is displayed*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+
+
+
+
+
 }
