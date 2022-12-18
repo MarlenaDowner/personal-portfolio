@@ -209,13 +209,11 @@ img {
   min-height: 400px;
   flex-basis: 100%;
 }
+*/
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-*/
-
 
 /*fill in pictures*/
 .Refactoring {
@@ -241,6 +239,12 @@ img {
   background-image: url("../images/5396.jpg");
   background-size: cover;
   background-position: top;
+}
+
+.quiz {
+  background-image: url("../images/quiz.JPG");
+  background-size: cover;
+  background-position: center;
 }
 
 .contact address a {
