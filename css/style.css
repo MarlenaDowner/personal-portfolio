@@ -130,6 +130,10 @@ nav a:last-child {
   line-height: 1.1;
   }
 
+.page-section h3, span {
+  color: white;
+}
+
 .page-section > div {
   flex: 0 0 77%; 
 }
@@ -190,6 +194,31 @@ nav a:last-child {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/*fill in pictures*/
+.Refactoring {
+  background-image: url("../images/Horiseon.JPG");
+  background-size: cover;
+  background-position: top;
+}
+
+.Landing {
+  background-image: url("../images/UX\ Bootstrap.JPG");
+  background-size: cover;
+  background-position: top;
+}
+
+.Calculator {
+  background-image: url("../images/calculator.JPG");
+  background-size: cover;
+  
+}
+
+.Weather {
+  background-image: url("../images/5396.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
 .contact address a {
   color: var(--tertiary);
   padding: 5px;
@@ -199,7 +228,7 @@ nav a:last-child {
   background-image: linear (270deg var (--primary) 0%, var(--primary) 100%);
 }
 
-.contact h2{
+.contact h2 {
   font-size: 3vw;
 }
 
@@ -207,21 +236,9 @@ nav a:last-child {
   color: red;
 }
 
-/*fill in pictures*/
-.Refactoring {
-  background-image: url("");
-}
-
-.Landing {
-  background-image: url("");
-}
-
-.Calculator {
-  background-image: url("");
-}
-
-.Weather {
-  background-image: url("")
+/*come back to this*/
+.Resume section a:hover {
+  color: red;
 }
 
 @media screen and (max-width: 1000px) {
@@ -230,7 +247,7 @@ nav a:last-child {
     justify-content: center;
     text-align: center;
   }
-
+  
 }
 
 /*fill in pictures*/
