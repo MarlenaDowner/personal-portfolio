@@ -194,6 +194,7 @@ img {
   flex-basis: 100%;
 }
 
+/* made all images to adhear to Acceptance Criteria
 .flex-item~ .Landing{
   min-height: 400px;
   flex-basis: 100%;
@@ -212,6 +213,9 @@ img {
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+*/
+
 
 /*fill in pictures*/
 .Refactoring {
