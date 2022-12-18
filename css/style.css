@@ -11,7 +11,6 @@
 
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -76,6 +75,17 @@ nav a:last-child {
   margin-right: 20px;
 }
 
+/*take this out if messes up*/
+img {
+  position: absolute;
+  top: 190px;
+  right: 0;
+  left: 40px;
+  height: 220px;
+  width: 270px;
+}
+
+
 .hero-banner {
   background-color: rgb(162, 213, 255);
   background-image: url("../images/metofficegovuk_heroMedium.jpg");
@@ -83,7 +93,7 @@ nav a:last-child {
   background-size: cover;
   background-position: center;
   min-height: 30vh; /*this changes the height of the image*/
-  padding: 2% 6%; /*this changes the padding around the image so the workding will move*/
+  padding: 2% 30%; /*this changes the padding around the image so the workding will move*/
   /*this changes where the wrighting  is displayed*/
   display: flex;
   justify-content: flex-end;
