@@ -5,8 +5,8 @@
 :root {
 --primary: rgba(68, 88, 119, 1);
 --secondary: rgba(146,204,206,1);
---tertiary: rgba(49, 52, 61, 1);
---dark: rgba(28, 29, 33, 1);
+--tertiary: rgb(16, 30, 219);
+--dark: rgb(57, 38, 141);
 --light: rgba(238, 238, 247, 1);
 
 }
@@ -43,6 +43,11 @@ header {
   background-color: var(--tertiary)
 }
 
+header h1 {
+  font-size: 5vw;
+  margin-left: 20px;
+  }
+
 nav {
   display: flex;
   flex-direction: row; /*puts the nav writing in a row */
@@ -68,7 +73,7 @@ nav a:hover {
 }
 
 nav a:last-child {
-  margin-right: 0;
+  margin-right: 20px;
 }
 
 .hero-banner {
@@ -119,13 +124,13 @@ nav a:last-child {
 }
 
 .page-section > h2 {
-flex: 0 0 20%;
-text-align: right;
-padding-right: 15px;
-border-right: 4px solid var(--primary); /*this adds the line nect to H2*/
-font-size: 4vw;
-line-height: 1.1;
-}
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--primary); /*this adds the line nect to H2*/
+  font-size: 3vw;
+  line-height: 1.1;
+  }
 
 .page-section > div {
   flex: 0 0 77%; 
@@ -146,22 +151,39 @@ line-height: 1.1;
 .flex-item {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
-  color: var(--tertiary);
+  color: black;
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
-  padding: 0 0 20px 0; /*this adds padding inside the flex- container*/
+  padding: 0 0 10px 0; /*this adds padding inside the flex- container*/
   margin: 0.5em; /*this adds margin outside the flex- container ie allows it to split up*/
   text-decoration: none;
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
-.flex-item:first-child {
+/*change this to all rather then first child*/
+
+.flex-item:first-child{
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item~ .Landing{
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item~ .Calculator{
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
+.flex-item:last-child{
   min-height: 400px;
   flex-basis: 100%;
 }
@@ -175,5 +197,86 @@ line-height: 1.1;
   padding: 5px;
   text-decoration: none;
   font-style: normal;
+  margin: 0 0.2rem 0.1rem;
   background-image: linear (270deg var (--primary) 0%, var(--primary) 100%);
 }
+
+.contact h2{
+  font-size: 3vw;
+}
+
+.contact address a:hover {
+  color: red;
+}
+
+/*fill in pictures*/
+.Refactoring {
+  background-image: url("");
+}
+
+.Landing {
+  background-image: url("");
+}
+
+.Calculator {
+  background-image: url("");
+}
+
+.Weather {
+  background-image: url("")
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+
+/*fill in pictures*/
+header h1 {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 4vw;
+}
+
+.page-section > h2,
+.page-section > div {
+  flex: 0 0 100%;
+}
+
+.page-section > h2 {
+  border-right: none;
+  border-bottom: 4px solid var(--primary);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px){
+  .flex-item { /*change this to all instead of first-child*/
+    flex-basis: 100%;
+  }
+  
+  }
+  header nav {
+    justify-content: center;
+    font-size: 3vw;
+  }
+  
+  .flex-item { /*change this to all instead of first-child*/
+    min-height: 150px;
+  }
+  
+  .hero-banner {
+    justify-content: center;
+    text-align: right;
+  }
+  
+  .contact address {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
