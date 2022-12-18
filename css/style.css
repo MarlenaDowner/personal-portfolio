@@ -78,13 +78,12 @@ nav a:last-child {
 /*take this out if messes up*/
 img {
   position: absolute;
-  top: 190px;
+  top: 150px;
   right: 0;
   left: 40px;
-  height: 220px;
-  width: 270px;
+  height: 320px;
+  width: 320px;
 }
-
 
 .hero-banner {
   background-color: rgb(162, 213, 255);
@@ -258,7 +257,16 @@ img {
 }
 
 /*come back to this*/
-.Resume section a:hover {
+.Resume a {
+  color: var(--tertiary);
+  padding: 5px;
+  text-decoration: none;
+  font-style: normal;
+  margin: 0 0.2rem 0.1rem;
+  background-image: linear (270deg var (--primary) 0%, var(--primary) 100%);
+}
+
+.Resume a:hover {
   color: red;
 }
 
@@ -268,6 +276,12 @@ img {
     justify-content: center;
     text-align: center;
   }
+
+}
+
+img { 
+padding: 10px;
+justify-content: auto;
 
 }
 
@@ -301,6 +315,12 @@ header h1 {
     justify-content: center;
     font-size: 3vw;
   }
+
+  img { 
+    padding: 10px;
+    justify-content: auto;
+    
+    }
   
   .flex-item { /*change this to all instead of first-child*/
     min-height: 150px;
