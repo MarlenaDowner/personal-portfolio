@@ -96,10 +96,11 @@ nav a:last-child {
 }
 
 .hero-banner h2 {
-  background-color: var(--secondary);
-  color: var(--tertiary);
+  background-color: var(--secondary);  /*add padding behind words*/
+  color: white;
   margin-left: 0;
-  padding: 5px 10px;
+  margin-right: -100px;
+  padding: 10px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
@@ -125,13 +126,22 @@ nav a:last-child {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid var(--primary); /*this adds the line nect to H2*/
+  border-right: 4px solid var(--primary); /*this adds the line through to H2*/
   font-size: 3vw;
   line-height: 1.1;
   }
 
 .page-section h3, span {
   color: white;
+  text-decoration: none;
+  padding: 10px 10px; 
+  margin-right: 10px;
+  background-image: linear-gradient(var(--secondary) 0%, var(--secondary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-position: bottom; 
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
 }
 
 .page-section > div {
@@ -208,8 +218,9 @@ nav a:last-child {
 }
 
 .Calculator {
-  background-image: url("../images/calculator.JPG");
+  background-image: url("../images/02-portfolio-2.jpg");
   background-size: cover;
+  background-position: center;
   
 }
 
@@ -247,7 +258,7 @@ nav a:last-child {
     justify-content: center;
     text-align: center;
   }
-  
+
 }
 
 /*fill in pictures*/
