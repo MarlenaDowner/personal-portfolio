@@ -5,15 +5,8 @@
 My motivation for this project was to create my first HTML, CSS + JS personal web portfolio. I created the portfolio to showcase the projects I have build and also have a space to which future employers can easily have access and view my projects. In creating the portfolio I wanted it to show my own creative flare and individual approach I take when coding and designing, I hope these are highlighted in the projects being showcased. While making the portfolio I learned many skills, some which stood out were: How to position elements and classes in logical order in HTML and CCS, understanding how margin/padding can effect layouts and the importance of doing a wireframe concept before starting to code.
 
 
-## Usage 
+## Project Screenshot
 
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](./assets/images/Screenshot.JPG?raw=true)
-```
 
 ## License
 
