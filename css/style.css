@@ -106,7 +106,6 @@ img {
   flex: 0 0 90%;
 }
 
-/*---------PC screen -400----------*/
 .hero-banner h2 {
   background-color: var(--secondary);
   color: white;
@@ -233,7 +232,6 @@ img {
   background-image: url("../images/02-portfolio-2.jpg");
   background-size: cover;
   background-position: center;
-  
 }
 
 .Weather {
@@ -329,10 +327,19 @@ img {
   }
     }
 
-/*---------Media screen coem back and ajust for 786px----------*/
+
 @media screen and (max-width: 768px){
   .flex-item { 
     flex-basis: 100%;
+  }
+
+  .hero-banner h2 {
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
   }
 
   header nav {
