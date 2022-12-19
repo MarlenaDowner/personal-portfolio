@@ -1,13 +1,22 @@
 # Personal HTML, CSS and JavaScript portfolio 
 
+---
+
 ## Description 
 
 My motivation for this project was to create my first HTML, CSS + JS personal web portfolio. I created the portfolio to showcase the projects I have build and also have a space to which future employers can easily have access and view my projects. In creating the portfolio I wanted it to show my own creative flare and individual approach I take when coding and designing, I hope these are highlighted in the projects being showcased. While making the portfolio I learned many skills, some which stood out were: How to position elements and classes in logical order in HTML and CCS, understanding how margin/padding can effect layouts and the importance of doing a wireframe concept before starting to code.
 
+---
 
 ## Project Screenshot
 
 ![Screenshot](https://user-images.githubusercontent.com/119687938/208321431-7fcaa051-abb4-43a7-be1e-ddd85a6729c2.JPG)
+
+https://github.com/MarlenaDowner/personal-portfolio
+
+https://marlenadowner.github.io/personal-portfolio/
+
+---
 
 ## License
 
