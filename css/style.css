@@ -79,12 +79,12 @@ nav a:last-child {
 
 /*---------Profile avatar----------*/
 img {
-  position: absolute;
+  position: none;
   top: 150px;
   right: 0;
   left: 40px;
-  height: 320px;
-  width: 320px;
+  height: 420px;
+  width: 420px;
 }
 
 /*---------Hero banner----------*/
@@ -106,11 +106,12 @@ img {
   flex: 0 0 90%;
 }
 
+/*---------PC screen -400----------*/
 .hero-banner h2 {
   background-color: var(--secondary);
   color: white;
   margin-left: 0;
-  margin-right: -100px;
+  margin-right: -400px;
   padding: 10px 10px;
   font-size: 2.3rem;
   line-height: 1.2;
@@ -288,50 +289,57 @@ img {
     text-align: center;
   }
 
-}
-/*---------Come back to this----------*/
-img { 
-padding: 10px;
-justify-content: auto;
+  .hero-banner h2  {
+    background-color: var(--secondary);
+    color: white;
+    margin-left: 0;
+    margin-right: -90px;
+    padding: 10px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+  }
 
-}
+  img {
+    position: none;
+    top: 250px;
+    right: 0;
+    left: 40px;
+    height: 320px;
+    width: 320px;
+  }
 
-header h1 {
-  padding: 5px;
-  margin-bottom: 10px;
-  font-size: 4vw;
-}
+  header h1 {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 4vw;
+  }
+  
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+  
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+    }
 
-.page-section > h2,
-.page-section > div {
-  flex: 0 0 100%;
-}
-
-.page-section > h2 {
-  border-right: none;
-  border-bottom: 4px solid var(--primary);
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  text-align: left;
-}
-
+/*---------Media screen coem back and ajust for 786px----------*/
 @media screen and (max-width: 768px){
   .flex-item { 
     flex-basis: 100%;
   }
-  
-  }
+
   header nav {
     justify-content: center;
     font-size: 3vw;
-  }
+  }  
 
-  img { 
-    padding: 10px;
-    justify-content: auto;
-    
-    }
-  
   .flex-item { 
     min-height: 150px;
   }
@@ -346,3 +354,4 @@ header h1 {
     align-items: flex-start;
   }
   
+  }
