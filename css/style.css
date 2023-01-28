@@ -217,7 +217,7 @@ img {
 
 /*---------section pictures----------*/
 .Refactoring {
-  background-image: url("../images/Horiseon.JPG");
+  background-image: url("../images/refactor.JPG");
   background-size: cover;
   background-position: top;
 }
@@ -241,7 +241,7 @@ img {
 }
 
 .quiz {
-  background-image: url("../images/quiz.JPG");
+  background-image: url("../images/quiz1.JPG");
   background-size: cover;
   background-position: center;
 }
